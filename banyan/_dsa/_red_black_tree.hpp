@@ -76,7 +76,7 @@ protected:
     }
     
 private:
-    typedef std::vector<NodeT *, typename Allocator::template rebind<Metadata>::other> NodePtrVecT;    
+    typedef std::vector<NodeT*, typename Allocator::template rebind<NodeT*>::other> NodePtrVecT; 
 
 private:
     void
