@@ -28,14 +28,14 @@ def read_text(filename):
 
 
 setup(
-    name='Banyan',
-    version='0.1.5',
+    name='pyannote-banyan',
+    version='0.1.6',
     author='Ami Tavory',
     author_email='atavory at gmail.com',
-    maintainer='Phillip Cloud',
-    maintainer_email='cpcloud at gmail.com',
+    maintainer='Herve Bredin',
+    maintainer_email='bredin at limsi.fr',
     packages=['banyan'],
-    url='https://github.com/cpcloud/banyan',
+    url='https://github.com/pyannote/pyannote-banyan',
     license='BSD',
     description=('Highly-optimized search trees (red-black, splay, and '
                  'sorted-list) with optional augmentation '
