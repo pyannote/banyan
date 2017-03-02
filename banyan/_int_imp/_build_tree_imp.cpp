@@ -1,5 +1,5 @@
 #include <Python.h>
-
+#include <iterator>
 #include "rank_metadata.hpp"
 #include "min_gap_metadata.hpp"
 #include "overlapping_intervals_metadata.hpp"
