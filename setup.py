@@ -29,7 +29,7 @@ def read_text(filename):
 
 setup(
     name='pyannote-banyan',
-    version='0.1.6',
+    version='0.1.7',
     author='Ami Tavory',
     author_email='atavory at gmail.com',
     maintainer='Herve Bredin',
